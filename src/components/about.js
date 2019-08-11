@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
-import picSVG from '../../public/img/pic.svg'
+// import picSVG from '../../public/img/pic.svg'
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container">
         <div className="my-profile">
           <div className="profile">
-            <img src={picSVG} alt="myself close to the golden gate bridge" />
+            <img src="https://via.placeholder.com/150" alt="myself close to the golden gate bridge" />
           </div>
           <div className="profile">
             <p>Hello! My name is Gabriela Gonzalez Holguin and I am an UX Designer

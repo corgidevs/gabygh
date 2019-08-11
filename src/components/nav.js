@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import navStyles from './nav.module.css'
-import logoVG from '../../public/img/logo.svg'
+// import logoVG from '../../public/img/logo.svg'
 
 const Nav = () => {
   return (
     <React.Fragment>
       <nav>
         <div className={ navStyles.logo }>
-          <img src={logoVG} alt="Gabriela Gonzalez" />
+          <img src="https://via.placeholder.com/150" alt="Gabriela Gonzalez" />
         </div>
         <div className={ navStyles.links }>
           <ul>
