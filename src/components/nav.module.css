@@ -1,0 +1,20 @@
+nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+}
+
+.logo {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 18px;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+}
