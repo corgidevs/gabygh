@@ -6,17 +6,26 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 const About = () => {
   return (
     <section className="about" id="about">
-      <div className="about-heading">
-        <h1>About</h1>
-        <h6>Me</h6>
-      </div>
       <div className="container">
-        <div className="my-profile">
-          <div className="profile">
-            <img src="https://via.placeholder.com/150" alt="myself close to the golden gate bridge" />
+        <div className="about-img">
+          <img src="https://via.placeholder.com/100" alt="myself close to the golden gate bridge" />
+        </div>
+
+        <div className="about-details">
+          <div className="about-heading">
+            <h1>About</h1>
+            <h6>Me</h6>
+            <div className="about-resume">
+          <ul className="nav-list">
+            <li>
+              <a href="">
+              <FontAwesomeIcon icon={faDownload} /> Resume
+              </a>
+            </li>
+          </ul>
+        </div>
           </div>
-          <div className="profile">
-            <p>Hello! My name is Gabriela Gonzalez Holguin and I am an UX Designer
+          <p>Hello! My name is Gabriela Gonzalez Holguin and I am an UX Designer
               with a multidisciplinary background. My diverse interests brought
               me to the User Experience world in a very unorthodox way. I have
               always been a very curious person that learns by getting the hands
@@ -27,11 +36,7 @@ const About = () => {
               be having a long walk with my dog, eating something delicious or
               binge watching an anime. Right now I live at San Francisco with
               my husband and my dog.
-            </p>
-          </div>
-          <div className="profile">
-            <h2><FontAwesomeIcon icon={faDownload} /> Resume</h2>
-          </div>
+          </p>
         </div>
       </div>
     </section>
