@@ -25,22 +25,22 @@ const Footer = () => {
           <div className="social-media">
             <ul className="nav-list">
               <li>
-                <a href="/" className="fa-linkedin">
+                <a href="https://www.linkedin.com/in/gaby-gonzalez-holguin/" target="_blank" rel="noopener" className="fa-linkedin">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
               </li>
               <li>
-                <a href="/" className="fa-behance">
+                <a href="https://www.behance.net/gabsholguin/" target="_blank" rel="noopener" className="fa-behance">
                   <FontAwesomeIcon icon={faBehance} />
                 </a>
               </li>
               <li>
-                <a href="/" className="fa-instagram">
+                <a href="https://www.instagram.com/gabshol/" target="_blank" rel="noopener" className="fa-instagram">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>
               <li>
-                <a href="/" className="fa-email">
+                <a href="mailto:ggonzalez.csm@gmail.com" className="fa-email">
                   <FontAwesomeIcon icon={faEnvelope} />
                 </a>
               </li>
