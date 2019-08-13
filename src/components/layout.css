@@ -260,10 +260,6 @@ footer {
     margin: 2rem 0;
   }
 
-  .about .container {
-    margin-top: 14rem;
-  }
-
   .about-details .nav-list {
     flex-direction: initial;
   }
@@ -271,11 +267,27 @@ footer {
   .about-details li {
     margin: 0 2rem;
   }
+
+  .social-media .nav-list {
+    flex-direction: initial;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .social-media .nav-list {
+    flex-direction: initial;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .social-media a {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .landing-text {
-    visibility: hidden;
+    display: none;
   }
 
   .about .container {
@@ -284,5 +296,15 @@ footer {
 
   .about-img {
     margin: 0 0 7rem 0;
+  }
+
+  .social-media .nav-list {
+    flex-direction: initial;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .social-media a {
+    font-size: 3rem;
   }
 }

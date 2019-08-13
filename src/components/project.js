@@ -1,7 +1,5 @@
 import React from 'react'
-// import case1SVG from '../../public/img/case1.svg'
-// import case2SVG from '../../public/img/case2.svg'
-// import case3SVG from '../../public/img/case3.svg'
+import Project1 from '../assets/case1.svg'
 
 const Project = () => {
   return (
@@ -13,10 +11,10 @@ const Project = () => {
         </div>
         <div className="my-projects">
           <div className="project">
-            <img src="https://via.placeholder.com/150"  alt="queryla" />
+            <Project1 />
           </div>
           <div className="project">
-            <img src="https://via.placeholder.com/150" alt="admin portal" />
+            <img src="https://via.placeholder.com/150" alt="dashboard" />
           </div>
           <div className="project">
             <img src="https://via.placeholder.com/150" alt="privada 14" />
