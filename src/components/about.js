@@ -1,14 +1,14 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
-// import picSVG from '../../public/img/pic.svg'
+import Pic from '../assets/pic.svg'
 
 const About = () => {
   return (
     <section className="about" id="about">
       <div className="container">
         <div className="about-img">
-          <img src="https://via.placeholder.com/100" alt="myself close to the golden gate bridge" />
+          <Pic />
         </div>
 
         <div className="about-details">
