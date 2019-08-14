@@ -47,3 +47,14 @@ nav {
 .links a:hover {
   background-color: LightCoral;
 }
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .links a {
+    padding: 0.5rem;
+  }
+
+  .links li {
+    margin: 0.3rem 0;
+  }
+}
