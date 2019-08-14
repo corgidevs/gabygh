@@ -1,5 +1,6 @@
 import React from 'react'
 import Project1 from '../assets/case1.svg'
+import Project2 from '../assets/case2.svg'
 
 const Project = () => {
   return (
@@ -14,7 +15,7 @@ const Project = () => {
             <Project1 />
           </div>
           <div className="project">
-            <img src="https://via.placeholder.com/150" alt="dashboard" />
+            <Project2 />
           </div>
           <div className="project">
             <img src="https://via.placeholder.com/150" alt="privada 14" />

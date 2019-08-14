@@ -15,7 +15,7 @@ const TypeWriter = () => {
       }
     }
   `)
-  const [typing, setTyping] = useState("Something");
+  const [typing, setTyping] = useState("");
   const intervalRef = useRef({});
   const name = useTypewriter(typing);
   useEffect(

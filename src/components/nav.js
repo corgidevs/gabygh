@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import navStyles from './nav.module.css'
 import Logo from '../assets/logo.svg'
 
@@ -13,13 +12,13 @@ const Nav = () => {
         <div className={ navStyles.links }>
           <ul>
             <li>
-              <Link to="#home">Home</Link>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <Link to="#home">About</Link>
+              <a href="#about">About</a>
             </li>
             <li>
-              <Link to="#home">Contact</Link>
+              <a href="#work">Work</a>
             </li>
           </ul>
         </div>
