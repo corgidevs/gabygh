@@ -18,7 +18,7 @@ const About = () => {
             <div className="about-resume">
           <ul className="nav-list">
             <li>
-              <a href="">
+              <a href="/Gabriela_Gonzalez_UX_UI.pdf" download="resume">
               <FontAwesomeIcon icon={faDownload} /> Resume
               </a>
             </li>
